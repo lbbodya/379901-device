@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Моноподы для селфи</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Моноподы для селфи</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" width="135" height="40" alt="Интернет магазин - Девайс"></a>
+          </div>
+          <ul class="page-nav-first">
+            <li class="page-nav-first-action">
+              <form>
+                <input type="search" name="search" placeholder="Поиск по сайту">
+              </form>
+            </li>
+            <li class="page-nav-first-action">
+              <div class="user-block">
+                <a class="user" href="#">Валентин Петухов</a>
+                <a class="login-link" href="#">Выйти</a>
+              </div>
+            </li>
+            <li class="page-nav-first-action">
+              <div class="compare-block">
+                <a class="compare-link" href="#">Сравнить</a>
+              </div>
+            </li>
+            <li class="page-nav-first-action">
+              <div class="basket-block">
+                <a class="basket-link" href="#">Корзина</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+            <nav class="page-nav-second">
+              <h3>Каталог товаров</h3>
+            <ul>
+              <li class=page-nav-second-item>
+                <a href="a">Доставка</a>
+              </li>
+              <li class=page-nav-second-item>
+                <a href="a">Гарантия</a>
+              </li>
+              <li class=page-nav-second-item>
+                <a href="a">Контакты</a>
+              </li>
+            </ul>
+    </header>
+      <main>
+           <div class="container">
+            <h1>Моноподы для селфи</h1>
+              <nav>
+                <ul class="page-nav-small">
+                  <li class="page-nav-small-item">
+                    <a href="index.html">Главная</a>
+                  </li>
+                  <li class="page-nav-small-item">
+                    <a href="#">Каталог товаров</a>
+                  </li>
+                  <li class="page-nav-small-item active">
+                    <a href="catalog.html">Моноподы для селфи</a>
+                  </li>
+                </ul>
+              </nav>
+           </div>
+           <b>Фильтр:</b>
+      <fieldset>
+          <form action="" method="get" oninput="priceoutput.value=pricecount.value">
+          <legend>Стоимость</legend>
+          <output name="priceoutput"></output>
+        от 0<input type="range" id="pricecount" name="pricecount" min="0" max="5000" step="50">до 5000
+        <label for="pricecount"></label>
+        </fieldset>
+        <fieldset>
+          <legend>Цвет</legend>
+        <input type="checkbox" name="item1" id="item1" checked>
+        <label for="item1">Черный</label>
+        <input type="checkbox" name="item2" id="item2">
+        <label for="item2">Белый</label>
+        <input type="checkbox" name="item3" id="item3" checked>
+        <label for="item3">Синий</label>
+        <input type="checkbox" name="item4" id="item4" checked>
+        <label for="item4">Красный</label>
+        <input type="checkbox" name="item5" id="item5">
+        <label for="item5">Розовый</label>
+        </fieldset>
+      <fieldset>
+        <legend>Bluetooth</legend>
+          <form action="" method="get">
+        <input type="radio" name="product-item1" id="product-item1" checked>
+        <label for="product-item1">Есть</label>
+        <input type="radio" name="product-item2" id="product-item2">
+        <label for="product-item2">Нет</label>
+      </fieldset>
+        <button type="submit" class="results">Показать</button>
+        </form>
+    <b>Сортировка:</b>
+      <ul class="sorting">
+        <li class="sorting-item">
+          <a href="">По цене</a>
+        </li>
+        <li class="sorting-item">
+          <a href="">По типу</a>
+        </li>
+        <li class="sorting-item">
+          <a href="">По популярности</a>
+        </li>
+      </ul>
+        <article class="product-cart">
+          <div class="product-cart-image">
+            <img src="http://placehold.it/250x260" alt="Любительская селфи-палка">
+          </div>
+          <a href="#">Любительская селфи-палка</a>
+          <span class="product-cart-price">500 руб.</span>
+      </article>
+      <article class="product-cart">
+          <div class="product-cart-image">
+            <img src="http://placehold.it/250x260" alt="Профессиональная селфи-палка">
+          </div>
+          <a href="#">Профессиональная селфи-палка</a>
+          <span class="product-cart-price">1 500 руб.</span>
+      </article>
+      <article class="product-cart">
+          <div class="product-cart-image">
+            <img src="http://placehold.it/250x260" alt="Непотопляемая селфи-палка">
+          </div>
+          <a href="#">Непотопляемая селфи-палка</a>
+          <span class="product-cart-price">2 500 руб.</span>
+      </article>
+      <article class="product-cart">
+          <div class="product-cart-image new">
+            <img src="http://placehold.it/250x260" alt="Селфи-палка 'Следуй за мной'">
+          </div>
+          <a href="#">Селфи-палка "Следуй за мной"</a>
+          <span class="product-cart-price">4 900 руб.</span>
+      </article>
+      <ul class="pagination">
+      <li class="pagination-item">
+            <a href="#">Назад</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">1</a>
+          </li>
+          <li  class="pagination-item">
+            <a href="#">2</a>
+            </li>
+          <li class="pagination-item">
+            <a href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">Вперед</a>
+          </li>
+        </ul>
+      </main>
+    <footer class="page-footer">
+          <div class="container">
+            <div class="logo">
+            <a href="index.html"><img src="img/logo-white.png" width="135" height="40" alt="Интернет магазин - Девайс"></a>
+          </div>
+            <p>г.Москва, ул.Строителей 15</p>
+          </div>
+            <section class="footer-nav">
+              <ul class="footer-nav">
+                <li class="footer-nav-item">
+                  <a href="">Доставка</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="">Гарантия</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="">Контакты</a>
+                </li>
+              </ul>
+            </section>
+            <section class="footer-social">
+              <ul class="footer-social">
+                <li class="footer-social-icon">
+                  <a class="social-fb" href="">Фейсбук</a>
+                </li>
+                <li class="footer-social-icon">
+                  <a class="social-inst" href="">Инстаграм</a>
+                </li>
+                <li class="footer-social-icon">
+                  <a class="social-tw" href="">Твитер</a>
+                </li>
+              </ul>
+            </section>
+        <section class="footer-nav-second">
+          <ul class="footer-nav-second">
+            <li class="footer-nav-second-action">
+              <div class="user-block">
+                <a class="login-link" href="#">Войти</a>
+              </div>
+            </li>
+            <li class="footer-nav-second-action">
+              <div class="compare-block">
+                <a class="compare-link" href="#">Сравнить</a>
+              </div>
+            </li>
+            <li class="footer-nav-second-action">
+              <div class="basket-block">
+                <a class="basket-link" href="#">Корзина</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+          <p>Тел.: +7 (495) 495-95-95</p>
+        <div class="footer-logo">
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="http://placehold.it/35x35" class="footer-logo" width="" height="" alt="Лендинг интенсива «Базовый HTML и CSS»">
+          </a>
+        </div>
+      </footer>
+  </body>
+</html>
+
+  </body>
+</html>
