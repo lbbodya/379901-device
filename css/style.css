@@ -1,0 +1,19 @@
+body {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Open Sans", "Gilroy";
+  line-height: 30px;
+  color: #464646;
+}
+
+h1 {
+  font-size: 47px;
+  height: 42px;
+  color: #000000;
+}
+
+h2 {
+  font-size: 18px;
+  height: 16px;
+  color: #000000;
+}
