@@ -944,6 +944,7 @@ a.compare::before {
 
 .contacts img {
   margin-top: 8px;
+  background-image: url(../img/map.png);
 }
 .contacts .write-us-btn {
   min-width: 250px;
