@@ -644,7 +644,7 @@ a.compare::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display:         flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 160px;
@@ -692,6 +692,7 @@ a.compare::before {
   padding-right: 2px;
 }
 /*СЕКЦИЯ ТОВАРОВ НАЧАЛО*/
+
 
 /*УСЛУГИ НАЧАЛО*/
 .services {
@@ -944,6 +945,7 @@ a.compare::before {
 
 .contacts img {
   margin-top: 8px;
+  background-image: url(../img/map.png);
 }
 .contacts .write-us-btn {
   min-width: 250px;
