@@ -644,7 +644,7 @@ a.compare::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display:         flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 160px;
@@ -692,6 +692,7 @@ a.compare::before {
   padding-right: 2px;
 }
 /*СЕКЦИЯ ТОВАРОВ НАЧАЛО*/
+
 
 /*УСЛУГИ НАЧАЛО*/
 .services {
